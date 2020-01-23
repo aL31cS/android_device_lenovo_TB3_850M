@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
--include vendor/Lenovo/TB3-850F/BoardConfigVendor.mk
+include vendor/Lenovo/TB3-850F/BoardConfigVendor.mk
 
 # Headers
-TARGET_SPECIFIC_HEADER_PATH := device/Lenovo/TB3-850F/include
+TARGET_SPECIFIC_HEADER_PATH := device/Lenovo/TB3_850F/include
 
 # MTK Symbols
 TARGET_LDPRELOAD += libxlog.so:libmtk_symbols.so
@@ -66,10 +66,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Use prebuilt kernel for now
-TARGET_PREBUILT_KERNEL := device/Lenovo/TB3-850F/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/Lenovo/TB3_850F/prebuilt/kernel
 
 # System.prop
-TARGET_SYSTEM_PROP := device/Lenovo/TB3-850F/system.prop
+TARGET_SYSTEM_PROP := device/Lenovo/TB3_850F/system.prop
 
 # WiFi
 WPA_SUPPLICANT_VERSION := VER_0_8_X
@@ -87,10 +87,10 @@ BOARD_WLAN_DEVICE := MediaTek
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
 BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Lenovo/TB3-850F/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Lenovo/TB3_850F/bluetooth
 
 # EGL settings
-BOARD_EGL_CFG := device/Lenovo/TB3-850F/configs/egl.cfg
+BOARD_EGL_CFG := device/Lenovo/TB3_850F/configs/egl.cfg
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 USE_OPENGL_RENDERER := true
 TARGET_USES_C2D_COMPOSITION := true
@@ -115,13 +115,13 @@ BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
 # SECCOMP
-BOARD_SECCOMP_POLICY += device/Lenovo/TB3-850F/seccomp
+BOARD_SECCOMP_POLICY += device/Lenovo/TB3_850F/seccomp
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/Lenovo/TB3-850F/sepolicy
+BOARD_SEPOLICY_DIRS += device/Lenovo/TB3_850F/sepolicy
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/Lenovo/TB3-850F/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/Lenovo/TB3_850F/recovery.fstab
 
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true

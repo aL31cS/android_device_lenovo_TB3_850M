@@ -1,5 +1,5 @@
 # LineageOS 14.1 device tree for the Lenovo Tab TB3-850F.
-This device is still in work. It may be unstable.
+This device tree is still in work. It may be unstable.
 
 About Device:
 ![alt text](https://images-na.ssl-images-amazon.com/images/I/41AvJ2h7bXL._AC_SY400_ML1_.jpg)

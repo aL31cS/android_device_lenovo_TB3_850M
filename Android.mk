@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-ifneq ($(filter TB3-850F,$(TARGET_DEVICE)),)
+ifneq ($(filter TB3_850F,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
