@@ -29,10 +29,10 @@ $ mka recoveryimage -j12
 
 What works/Bugs:
 =====================================
-[x] Boots
-[x] Touch/Screen
-[ ] Decryption
-[ ] ADB
-[ ] MTP
-[ ] Mount partitions
-[x] External SDcard
+- [x] Boots
+- [x] Touch/Screen
+- [ ] Decryption
+- [ ] ADB
+- [ ] MTP
+- [ ] Mount partitions
+- [x] External SDcard
