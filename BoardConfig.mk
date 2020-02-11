@@ -50,11 +50,14 @@ TW_THEME := portrait_hdpi
 TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_USE_SYSTEM_VOLD := true
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata"
+TW_CRYPTO_MNT_POINT := "/data"
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_EXCLUDE_ENCRYPTED_BACKUPS := false
 TW_NO_EXFAT := false
+TW_EXCLUDE_MTP := false
 
 # MTK HEADERS
 BOARD_CUSTOM_BOOTIMG_MK := device/Lenovo/TB3_850F/mkbootimg.mk
