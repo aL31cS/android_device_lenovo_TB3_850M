@@ -1,4 +1,0 @@
-type guiext_server, domain;
-type guiext_server_exec, exec_type, file_type;
-
-init_daemon_domain(guiext_server)

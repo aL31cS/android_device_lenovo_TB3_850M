@@ -1,4 +1,0 @@
-type wifi2agps, domain;
-type wifi2agps_exec, exec_type, file_type;
-
-init_daemon_domain(wifi2agps)

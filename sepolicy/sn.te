@@ -1,4 +1,0 @@
-type sn, domain;
-type sn_exec, exec_type, file_type;
-
-init_daemon_domain(sn)
