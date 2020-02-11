@@ -17,3 +17,22 @@ Dimensions | 9 x 210 x 125 mm
 Display | 1280 x 800 pixels, 8"
 Rear Camera  | 5.0 MP
 Front Camera | 2.0 MP
+
+Building:
+=====================================
+```
+$ git clone https://github.com/R0rt1z2/android_device_lenovo_TB3_850F.git -b twrp-6.0 device/Lenovo/TB3_850F
+$ source ./build/envsetup.sh
+$ lunch omni_TB3_850F-userdebug (or omni_TB3_850F-eng if testing)
+$ mka recoveryimage -j12
+```
+
+What works/Bugs:
+=====================================
+[x] Boots
+[x] Touch/Screen
+[ ] Decryption
+[ ] ADB
+[ ] MTP
+[ ] Mount partitions
+[x] External SDcard
