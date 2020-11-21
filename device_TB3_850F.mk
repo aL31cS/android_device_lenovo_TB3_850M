@@ -14,8 +14,11 @@
 # limitations under the License.
 #
 
-# Call tablet makefile
+# Call phone makefile
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+
+# Inherit from jf-common
+$(call inherit-product, device/samsung/TB3_850-common/TB3_850-common.mk)
 
 # Define local paths
 LOCAL_PATH := device/Lenovo/TB3_850F
